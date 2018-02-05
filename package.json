@@ -4,6 +4,7 @@
     "description": "Compare files ",
     "version": "0.0.1",
     "publisher": "in4margaret",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.19.0"
     },
