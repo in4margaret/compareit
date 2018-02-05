@@ -25,6 +25,10 @@
             {
                 "command": "compareit.compareWith",
                 "title": "Compare with..."
+            },
+            {
+                "command": "compareit.compareWithClipboard",
+                "title": "Compare with clipboard"
             }
         ],
         "menus": {
@@ -32,6 +36,10 @@
                 {
                     "command": "compareit.compareWith",
                     "group": "navigation@1"
+                },
+                {
+                    "command": "compareit.compareWithClipboard",
+                    "group":  "navigation@2"
                 }
             ]
         }
@@ -48,5 +56,9 @@
         "vscode": "^1.1.6",
         "@types/node": "^7.0.43",
         "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "@types/clipboardy": "^1.1.0",
+        "clipboardy": "^1.2.2"
     }
 }
